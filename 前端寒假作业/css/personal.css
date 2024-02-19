@@ -1,0 +1,353 @@
+.red{
+    width: 100%;
+    height: 4px;
+    background-color: brown;
+}
+.personal{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+/*两边*/
+.grey1, .grey2{
+    width: 265px;
+    height: 1000px;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 0;
+}
+.grey1{
+    position: absolute;
+    left: 0;
+}
+.grey2{
+    position: absolute;
+    right: 0;
+}
+/*主干*/
+.main{
+    position: absolute;
+    left: 265px;
+    background-color: white;
+    width: 975px;
+    height: 900px;
+}
+.Main{
+    width: 895px;
+    height: 800px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.main1{
+    width: 895px;
+    height: 220px;
+}
+.tu{
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    left: 0;
+}
+.tu-else{
+    width: 645px;
+    height: 210px;
+    position: absolute;
+    right: 0;
+}
+.name{
+    width: 645px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+}
+.Name{
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-color: rgba(128, 128, 128, 0.501);
+    background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+.line{
+    width: 645px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 45px;
+}
+.name2{
+    width: 645px;
+    height: 60px;
+    position: absolute;
+    top: 50px;
+}
+.num1{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+}
+.high{
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+    color: rgb(128, 128, 128);
+    position: absolute;
+    top: 0;
+}
+.low{
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    position: absolute;
+    top: 40px;
+}
+.line1-1{
+    width: 1px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.932);
+    position: absolute;
+    top: 5px;
+    left: 55px;
+}
+.num2{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    left: 60px;
+}
+.line1-2{
+    width: 1px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.932);
+    position: absolute;
+    top: 5px;
+    left: 115px;
+}
+.num3{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    left: 120px;
+}
+.name3{
+    width: 645px;
+    height: 20px;
+    color: rgba(128, 128, 128, 0.932);
+    font-size: 12px;
+    position: absolute;
+    top: 110px;
+}
+.name4{
+    width: 645px;
+    height: 20px;
+    color: rgba(128, 128, 128, 0.932);
+    font-size: 12px;
+    position: absolute;
+    top: 130px;
+}
+
+.main2{
+    width: 895px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+}
+.sing1-1{
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+}
+.sing1-2{
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    left: 108px;
+    top: 10px;
+}
+.sing1-3{
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: 56px;
+    top: 10px;
+}
+.sing1-3 a{
+    color: black;
+    text-decoration: none;
+}
+.line2-1{
+    width: 1px;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.377);
+    position: absolute;
+    right: 53px;
+    top: 12px;
+}
+.sing1-4{
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.sing1-4 a{
+    color: rgba(128, 128, 128, 0.603);
+    text-decoration: none;
+}
+
+.line1{
+    width: 895px;
+    height: 2px;
+    background-color: brown;
+    position: absolute;
+    top: 264px;
+}
+
+.main3{
+    width: 895px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 266px;
+}
+table{
+    width: 895px;
+    height: 180px;
+}
+.body1{
+    border: 0;
+    width: 895px;
+    height: 30px;
+    background-color: #f7f7f7;
+}
+.body2{
+    border: 0;
+    width: 895px;
+    height: 30px;
+    background-color: white;
+}
+.lie1{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+    text-align: center;
+}
+.lie2{
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+}
+.lie3{
+    width: 230px;
+    height: 30px;
+    font-size: 12px;
+    text-align: left;
+}
+.lie3 a{
+    color: #333;
+    text-decoration: none;
+}
+.lie4{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    text-align: left;
+}
+.lie4 a{
+    color: rgba(128, 128, 128, 0.911);
+    text-decoration: none;
+}
+.lie5{
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+}
+
+.main4{
+    width: 895px;
+    height: 40px;
+    font-size: 22px;
+    position: absolute;
+    top: 520px;
+}
+.line2{
+    width: 895px;
+    height: 2px;
+    background-color: brown;
+    position: absolute;
+    top: 560px;
+}
+.main5{
+    width: 895px;
+    height: 250px;
+    position: absolute;
+    top: 562px;
+}
+.song{
+    position: absolute;
+    top: 10px;
+    width: 170px;
+    height: 170px;
+}
+.tu2{
+    width: 170px;
+    height: 170px;
+}
+.under{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(245, 245, 245, 0.616);
+    width: 170px;
+    height: 35px;
+}
+.number{
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+.sing{
+    position: absolute;
+    right: 0;
+    width:30px;
+    height: 30px;
+}
+.explain{
+    width: 170px;
+    height: 20px;
+    position: absolute;
+    top: 190px;
+}
+.explain a{
+    text-decoration: none;
+    color: #333;
+}

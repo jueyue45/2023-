@@ -1,0 +1,645 @@
+/*总体*/
+.song{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 1400px;
+}
+/*两边*/
+.grey1, .grey2{
+    width: 265px;
+    height: 1400px;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 0;
+}
+.grey1{
+    position: absolute;
+    left: 0;
+}
+.grey2{
+    position: absolute;
+    right: 0;
+}
+/*主干*/
+.main{
+    position: absolute;
+    left: 265px;
+    background-color: white;
+    width: 700px;
+    height: 700px;
+}
+/*边栏*/
+.else{
+    position: absolute;
+    right: 265px;
+    width: 275px;
+    height: 1400px;
+}
+.line{
+    width: 1px;
+    height: 1400px;
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Else{
+    width: 205px;
+    height: 1600px;
+    position: absolute;
+    top: 0;
+    left: 35px;
+}
+.else1{
+    width: 205px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.else1 div{
+    width: 205px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+.line1{
+    width: 205px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.else2{
+    width: 205px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.love1{
+    width: 205px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+.like1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+}
+.like2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+}
+.like3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 100px;
+}
+.like4{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+}
+.love2{
+    width: 205px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+}
+.else3{
+    width: 205px;
+    height: 40px;
+    position: absolute;
+    top: 165px;
+    left: 0;
+}
+.else3 div{
+    width: 205px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+.line2{
+    width: 205px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 205px;
+    left: 0;
+}
+.else4{
+    width: 205px;
+    height: 345px;
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+.gedan1{
+    width: 205px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+}
+.gedan{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+}
+.gedan-name{
+    width: 135px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+
+}
+.name1{
+    width: 135px;
+    height: 30px;
+    font-size: 14px;
+    position: absolute;
+    top: 4px;
+}
+.name1 a{
+    color: black;
+    text-decoration: none;
+}
+.name2{
+    width: 135px;
+    height: 20px;
+    position: absolute;
+    bottom: 6px;
+}
+.by{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.544);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.by2{
+    width: 110px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+.by2 a{
+    color: black;
+    text-decoration: none;
+}
+.gedan2{
+    width: 205px;
+    height: 60px;
+    position: absolute;
+    top: 70px;
+}
+.gedan3{
+    width: 205px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+}
+.gedan4{
+    width: 205px;
+    height: 60px;
+    position: absolute;
+    top: 210px;
+}
+.gedan5{
+    width: 205px;
+    height: 60px;
+    position: absolute;
+    top: 280px;
+}
+.else5{
+    width: 205px;
+    height: 40px;
+    position: absolute;
+    top: 610px;
+    left: 0;
+}
+.else5 div{
+    width: 205px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+.line3{
+    width: 205px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 650px;
+    left: 0;
+}
+.else6{
+    width: 205px;
+    height: 80px;
+    position: absolute;
+    top: 665px;
+    left: 0
+}
+.wangyi1{
+    width: 45px;
+    height: 72px;
+    position: absolute;
+    left: 0;
+}
+.wangyi2{
+    width: 90px;
+    height: 72px;
+    position: absolute;
+    left: 58px;
+}
+.wangyi3{
+    width: 45px;
+    height: 72px;
+    position: absolute;
+    right: 0;
+}
+.else7{
+    width: 205px;
+    height: 20px;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.455);
+    position: absolute;
+    top: 755px;
+    left: 0;
+}
+/*头部空白*/
+.white{
+    width: 700px;
+    height: 40px;
+    background-color: white;
+}
+/*介绍*/
+.highest{
+    position: absolute;
+    top: 40px;
+    width: 700px;
+    height: 300px;
+}
+.Picture{
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+}
+.picture{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.recom{
+    width: 410px;
+    height: 300px;
+    position: absolute;
+    right: 30px;
+}
+.recom1{
+    width: 410px;
+    height: 30px;
+    position: relative;
+}
+.shuqian{
+    width: 95px;
+    height: 30px;
+}
+.shuqian2{
+    width: 310px;
+    height: 30px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.recom2{
+    width: 410px;
+    height: 60px;
+    position: relative;
+}
+.touxiang{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.touxiang2{
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.touxiang3{
+    width: 200px;
+    height: 35px;
+    color: rgba(128, 128, 128, 0.932);
+    font-size: 12px;
+    position: absolute;
+    top: 23px;
+    right: 50px;
+}
+
+.recom3{
+    width: 410px;
+    height: 60px;
+    position: relative;
+}
+.button1{
+    width: 68px;
+    height: 32px;
+    border-radius: 5px;
+}
+.button2{
+    width: 32px;
+    height: 30px;
+    position: absolute;
+    top: 2px;
+    left: 63px;
+    border-radius: 5px;
+}
+.button3{
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    top: 2px;
+    left: 102px;
+    border-radius: 5px;
+    border: 0;
+}
+.button4{
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    top: 2px;
+    left: 178px;
+    border-radius: 5px;
+    border: 0;
+}
+.button5{
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    top: 2px;
+    left: 252px;
+    border-radius: 5px;
+    border: 0;
+}
+.button6{
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    top: 2px;
+    left: 326px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.recom4{
+    width: 410px;
+    height: 30px;
+    position: relative;
+}
+.labol{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+}
+.labol1{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.911);
+    width: 57px;
+    border-radius: 30px;
+    border: 1px;
+    border-color: gray;
+}
+.labol2{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.911);
+    width: 57px;
+    border-radius: 30px;
+    border: 1px;
+    border-color: gray;
+}
+.labol3{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.911);
+    width: 57px;
+    border-radius: 30px;
+    border: 1px;
+    border-color: gray;
+}
+
+.recom5{
+    width: 410px;
+    height: 80px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+}
+/*播放*/
+.higher{
+    position: absolute;
+    top: 300px;
+    width: 700px;
+    height: 40px;
+}
+.higher1{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    font-size: 23px;
+}
+.higher2{
+    position: absolute;
+    left: 103px;
+    top: 11px;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+}
+.higher3{
+    position: absolute;
+    right: 110px;
+    top: 8px;
+    width: 115px;
+    height: 25px;
+    font-size: 12px;
+    color: blue;
+}
+.higher4{
+    position: absolute;
+    right: 85px;
+    top: 8px;
+    width: 35px;
+    height: 25px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+}
+.higher5{
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 85px;
+    height: 25px;
+    font-size: 12px;
+    color: red;
+}
+
+/*列表*/
+.high{
+    position: absolute;
+    top: 340px;
+    width: 700px;
+    height: 300px;
+}
+table{
+    border-spacing: 0;
+}
+thead tr{
+    border: 0;
+    width: 700px;
+    height: 30px;
+    background-color: #f7f7f7;
+}
+.body1{
+    border: 0;
+    width: 700px;
+    height: 30px;
+    background-color: #f7f7f7;
+}
+.body2{
+    border: 0;
+    width: 700px;
+    height: 30px;
+    background-color: white;
+}
+.lie1{
+    width: 34px;
+    height: 30px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+    text-align: center;
+}
+.lie2{
+    width: 43px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+}
+.lie3{
+    width: 223px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+}
+.lie3 a{
+    color: #333;
+    text-decoration: none;
+}
+.lie4{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.911);
+    text-align: left;
+}
+.lie4 a{
+    color: #333;
+    text-decoration: none;
+}
+.lie5{
+    width: 86px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+}
+.lie5 a{
+    color: #333;
+    text-decoration: none;
+}
+.lie6{
+    width: 116px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+}
+.lie6 a{
+    color: #333;
+    text-decoration: none;
+}
+/*下载*/
+.low{
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+}
+.low1{
+    width: 700px;
+    height: 50px;
+    position: absolute;
+}
+.low1 div{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}
+.low2{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 280px;
+}
+.low2 div{
+    width: 95px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    top: 3px;
+    left: 35px;
+}
+.low div a{
+    text-decoration: none;
+    color: white;
+}
+/*评论区*/
+.lower{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+
+}

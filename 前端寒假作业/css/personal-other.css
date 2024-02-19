@@ -1,0 +1,258 @@
+.red{
+    width: 100%;
+    height: 4px;
+    background-color: brown;
+}
+.personal-other{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+/*两边*/
+.grey1, .grey2{
+    width: 265px;
+    height: 1000px;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 0;
+}
+.grey1{
+    position: absolute;
+    left: 0;
+}
+.grey2{
+    position: absolute;
+    right: 0;
+}
+/*主干*/
+.main{
+    position: absolute;
+    left: 265px;
+    background-color: white;
+    width: 975px;
+    height: 700px;
+}
+.Main{
+    width: 895px;
+    height: 920px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.main1{
+    width: 895px;
+    height: 40px;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+}
+.main2{
+    width: 895px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.084);
+    position: absolute;
+    top: 40px;
+}
+.main2 span a{
+    color: black;
+    text-decoration: none;
+}
+.shezhi1{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+.main2 span a{
+    width: 130px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    text-decoration: none;
+}
+.shezhi2{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 130px;
+}
+.shezhi3{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 260px;
+}
+.main31{
+    width: 895px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    display: none;
+}
+.other{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+}
+.other1{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+.other1 input{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+}
+.other1-1{
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.other2{
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 50px;
+}
+.other2 input{
+    width: 350px;
+    height: 130px;
+    position: absolute;
+    left: 50px;
+}
+.other3{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 190px;
+}
+.man{
+    left: 12px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.other4{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 240px;
+}
+.year{
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    left: 50px;
+}
+.month{
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    left: 140px;
+}
+.date{
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    left: 230px;
+}
+.other5{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 290px;
+}
+.other5 select{
+    position: relative;
+    left: 50px;
+}
+.over{
+    width: 70px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 40px;
+    top: 340px;
+}
+.tu{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 425px;
+}
+.main32{
+    width: 895px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 125px;
+    display: none;
+}
+.phone{
+    width: 895px;
+    height: 60px;
+    background-color: rgba(128, 128, 128, 0.101);
+    position: absolute;
+    top: 0;
+}
+.main32 div span{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.main32 div button{
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    border-color: rgba(128, 128, 128, 0.433);
+    background-color: rgba(128, 128, 128, 0.24);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.others{
+    width: 895px;
+    height: 20px;
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    top: 80px;
+}
+.wangyi{
+    width: 895px;
+    height: 60px;
+    background-color: rgba(128, 128, 128, 0.122);
+    position: absolute;
+    top: 110px;
+}
+.qq{
+    width: 895px;
+    height: 60px;
+    background-color: rgba(128, 128, 128, 0.107);
+    position: absolute;
+    top: 170px;
+}

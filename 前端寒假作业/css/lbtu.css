@@ -1,0 +1,79 @@
+.lbtu
+{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    width: 100%;
+    height: 265px;
+}
+.tus {
+    position: absolute;
+    left: 265px;
+    top: 0;
+    float: left;
+    width: 4900px;
+    height: 265px;
+}
+.tu {
+    width: 700px;
+    height: 265px;
+}
+.tus ul li{
+    float: left;
+}
+.tus ul{
+    position: absolute;
+    float: left;
+    left: -41px;
+    top: -17px;
+    width: 4900px
+}
+.left {
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    background-color: rgba(128, 128, 128, 0.607);
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 132px;
+    display: none;
+    z-index: 10;
+}
+
+.right {
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    background-color: rgba(128, 128, 128, 0.607);
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    left: 665px;
+    top: 130px;
+    display: none;
+    z-index: 10;
+}
+
+.旁图1{
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 265px;
+    height: 265px;
+}
+.旁图2{
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.242);
+    width: 265px;
+    height: 265px;
+}
+.xiazai{
+    position: absolute;
+    right: 265px;
+    width: 275px;
+    height: 265px;
+}
